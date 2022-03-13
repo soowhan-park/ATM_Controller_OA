@@ -12,7 +12,7 @@ class SavingsAcoount:
         self.balance = 0
 
 # Class to store Checking account information
-class ChecikingAcoount:
+class CheckingAcoount:
     def __init__(self, name):
         self.name = name
         self.balance = 0
@@ -20,7 +20,7 @@ class ChecikingAcoount:
 # Class to create a card, card PIN number, and bank account
 class Bank:
     def __init__(self, card_num, PIN, accounts, hasCard):
-        self.balance=0
+        self.balance = 0
         self.user_name = ""
         self.card_num = card_num
         self.PIN = PIN
@@ -59,7 +59,7 @@ class Bank:
             print("\nThank you for choosing Bank of BearRobotics. Going back to controller")
             time.sleep(2)
         else:
-            print("Wrong choice! please type single integer of your choice.")
+            print("Wrong choice! Please type single integer of your choice.")
 
 
     def createPIN(self):
@@ -132,7 +132,7 @@ class Bank:
                     time.sleep(1.5)
                     self.backtoMain()
                 else:
-                    new_account = ChecikingAcoount(self.user_name)
+                    new_account = CheckingAcoount(self.user_name)
                     self.accounts["Checking"] = new_account
                     self.account_cnt += 1 
                     print("\nYour Checking Account has been created.")
