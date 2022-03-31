@@ -1,6 +1,5 @@
 # ATM_Controller
-Custom Task for Bear Robotics Online Assesment
-
+Simulation of simple operations of ATM and Bank using OOP
 ## Procedures
 ### 1. Download the file or clone the repo.
 ### 2. Compile the file using the following command: python3 -u "YOUR_PATH/ATMController.py"
